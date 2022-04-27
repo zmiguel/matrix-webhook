@@ -1,0 +1,4 @@
+apps:
+  - script : './bin/www'
+    cwd    : '/opt/matrix'
+    name   : 'matrix-webhook'

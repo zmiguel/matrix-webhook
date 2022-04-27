@@ -1,0 +1,19 @@
+{
+  "name": "matrix-webhook",
+  "version": "1.0.0",
+  "description": "App to send message to Matrix rom from a webhook",
+  "author": {
+    "name": "José Valdiviesso",
+    "email": "jose@valdiviesso.com"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "matrix-js-sdk": "^17.1.0",
+    "morgan": "~1.9.1"
+  }
+}

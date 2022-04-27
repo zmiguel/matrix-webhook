@@ -1,0 +1,7 @@
+{
+    "baseUrl": "",
+    "accessToken": "",
+    "userId": "@user:server.tld",
+    "roomId": "",
+    "password": "password for post auth"
+}

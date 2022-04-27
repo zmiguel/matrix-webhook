@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  matrix-webhook:
+    image: ghcr.io/zmiguel/matrix-webhook:latest
+    container_name: matrix-webhook
+    restart: unless-stopped
+    expose:
+      - 3000
+    environment:
+      BASE_URL:
+      ACCESS_TOKEN:
+      USER_ID:
+      ROOM_ID:
+      PASSWORD:
